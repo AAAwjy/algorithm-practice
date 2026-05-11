@@ -29,9 +29,4 @@ public:
 };
 
 
-容器类型,是否有 .erase(),备注
-vector / list / deque,是,通过迭代器删除
-set / map,是,可以通过迭代器或 Key 删除
-stack / queue,否,只能用 .pop() 移除特定位置的元素
-array,否,固定长度，无法删除
-forward_list,否,只有 .erase_after()
+
