@@ -1,2 +1,2 @@
-# algorithm prictice
+# algorithm practice
 个人练习
