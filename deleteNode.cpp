@@ -16,9 +16,8 @@ TreeNode* deleteNode(TreeNode* root, int key) {
         if(root->left&&root->right) {
             //选择左节点作为替换节点,左节点的右子树要接到右节点的左子树上
             TreeNode* rl=Findrl(root->right);
-            rl->left=root->left->right;
-            root->left->right=root->right;
-            return root->left;
+            r1->left=root->left;
+            return root->right;
         }
     }
     return root;
